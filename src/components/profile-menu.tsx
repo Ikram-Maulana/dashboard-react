@@ -19,9 +19,9 @@ export default function ProfileMenu({
       <MenuButton>
         <div className="flex items-center gap-2">
           {imageUrl ? (
-            <Avatar src={imageUrl} name={name} size="md" />
+            <Avatar src={imageUrl} name={name} size="sm" />
           ) : (
-            <Avatar name={name} size="md" />
+            <Avatar name={name} size="sm" />
           )}
           <div className="flex-col items-start hidden lg:flex">
             <span className="text-sm font-bold text-slate-900">{name}</span>

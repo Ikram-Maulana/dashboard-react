@@ -1,5 +1,8 @@
+import SidebarNavItem from "@/components/sidebar-nav-item";
+import { cn } from "@/lib/utils";
 import {
   Drawer,
+  DrawerBody,
   DrawerCloseButton,
   DrawerContent,
   DrawerHeader,
@@ -15,7 +18,17 @@ interface MobileMenuProps {
   isOpen: boolean;
   to: string;
   title: string;
-  children: React.ReactNode;
+  items: {
+    title: string;
+    items?: {
+      title: string;
+      href?: string;
+      disabled?: boolean;
+      external?: boolean;
+      label?: string;
+      end: boolean;
+    }[];
+  }[];
 }
 
 export default function MobileMenu({
@@ -24,7 +37,7 @@ export default function MobileMenu({
   isOpen,
   to,
   title,
-  children,
+  items,
 }: MobileMenuProps) {
   return (
     <div className="block lg:hidden">
@@ -45,7 +58,22 @@ export default function MobileMenu({
               </h1>
             </Link>
           </DrawerHeader>
-          {children}
+          <DrawerBody paddingTop={"1rem"} id="mobile">
+            {items.length && (
+              <div className="w-full">
+                {items.map((item, index) => (
+                  <div key={index} className={cn("pb-6")}>
+                    <h4 className="px-2 py-1 mb-1 text-sm font-semibold rounded-md">
+                      {item.title}
+                    </h4>
+                    {item?.items?.length && (
+                      <SidebarNavItem items={item.items} />
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
+          </DrawerBody>
         </DrawerContent>
       </Drawer>
     </div>
