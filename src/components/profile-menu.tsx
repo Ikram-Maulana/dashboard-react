@@ -2,14 +2,14 @@ import { Avatar, Menu, MenuButton } from "@chakra-ui/react";
 import { ChevronDownIcon } from "lucide-react";
 
 interface ProfileMenuProps {
-  src?: string;
+  imageUrl?: string;
   name: string;
   nim: string;
   children: React.ReactNode;
 }
 
 export default function ProfileMenu({
-  src,
+  imageUrl,
   name,
   nim,
   children,
@@ -18,8 +18,8 @@ export default function ProfileMenu({
     <Menu>
       <MenuButton>
         <div className="flex items-center gap-2">
-          {src ? (
-            <Avatar src={src} name={name} size="md" />
+          {imageUrl ? (
+            <Avatar src={imageUrl} name={name} size="md" />
           ) : (
             <Avatar name={name} size="md" />
           )}
