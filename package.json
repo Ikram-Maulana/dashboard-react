@@ -10,7 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.6.0",
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@mantine/hooks": "^6.0.9",
     "@tremor/react": "^2.4.0",
+    "framer-motion": "^10.12.4",
+    "lucide-react": "^0.188.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.0"
