@@ -1,3 +1,5 @@
+import MobileMenu from "@/components/mobile-menu";
+import ProfileMenu from "@/components/profile-menu";
 import {
   DrawerBody,
   IconButton,
@@ -11,15 +13,13 @@ import { useViewportSize } from "@mantine/hooks";
 import { BellIcon } from "lucide-react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import MobileMenu from "./mobile-menu";
-import ProfileMenu from "./profile-menu";
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { width } = useViewportSize();
 
   useEffect(() => {
-    if (width >= 768) {
+    if (width >= 1024) {
       onClose();
     }
   }, [onClose, width]);
@@ -43,7 +43,7 @@ export default function Navbar() {
         </MobileMenu>
 
         {/* Desktop Menu Left */}
-        <div className="items-center justify-center hidden gap-2 md:flex">
+        <div className="items-center justify-center hidden gap-2 lg:flex">
           <Link to="/dashboard">
             <h1 className="font-semibold leading-7 text-slate-900">
               Teknologi Rekayasa Komputer 💻

@@ -23,7 +23,7 @@ export default function ProfileMenu({
           ) : (
             <Avatar name={name} size="md" />
           )}
-          <div className="flex-col items-start hidden md:flex">
+          <div className="flex-col items-start hidden lg:flex">
             <span className="text-sm font-bold text-slate-900">{name}</span>
             <span className="text-xs text-slate-500">{nim}</span>
           </div>

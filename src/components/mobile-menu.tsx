@@ -27,7 +27,7 @@ export default function MobileMenu({
   children,
 }: MobileMenuProps) {
   return (
-    <div className="block md:hidden">
+    <div className="block lg:hidden">
       <IconButton
         icon={<PanelLeftOpen />}
         variant="ghost"
