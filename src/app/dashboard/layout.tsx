@@ -1,25 +1,21 @@
+import Sidebar from "@/components/Sidebar";
 import Navbar from "@/components/navbar";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 export default function DashboardLayout() {
   return (
     <>
       <Navbar />
 
-      <aside className="pt-24 font-bold">
-        <ul>
-          <li>
-            <Link to="/dashboard">Dashboard</Link>
-          </li>
-          <li>
-            <Link to="/dashboard/books">Books</Link>
-          </li>
-        </ul>
-      </aside>
+      <div className="flex-1">
+        <div className="container flex-1 items-start lg:grid lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10 lg:pl-0">
+          <Sidebar />
 
-      <main>
-        <Outlet />
-      </main>
+          <main className="p-6 sm:p-10">
+            <Outlet />
+          </main>
+        </div>
+      </div>
     </>
   );
 }

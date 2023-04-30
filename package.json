@@ -14,12 +14,16 @@
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
     "@mantine/hooks": "^6.0.9",
+    "@radix-ui/react-scroll-area": "^1.0.3",
     "@tremor/react": "^2.4.0",
+    "class-variance-authority": "^0.6.0",
+    "clsx": "^1.2.1",
     "framer-motion": "^10.12.4",
     "lucide-react": "^0.188.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.0"
+    "react-router-dom": "^6.11.0",
+    "tailwind-merge": "^1.12.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
