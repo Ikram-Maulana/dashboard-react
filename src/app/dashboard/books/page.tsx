@@ -18,6 +18,7 @@ export default function Books() {
       <Text>
         The book page displays a list of books that can be borrowed by the user.
       </Text>
+
       <div className="flex justify-end">
         <TextInput
           className="max-w-sm mt-6"

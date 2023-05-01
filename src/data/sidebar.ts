@@ -34,11 +34,11 @@ const sidebarItems = [
         title: "Data Buku",
         href: "/dashboard/books",
         items: [],
-        end: false,
+        end: true,
       },
       {
         title: "Riwayat Peminjaman",
-        href: "/dashboard/books-history",
+        href: "/dashboard/books/history",
         items: [],
         end: false,
       },
