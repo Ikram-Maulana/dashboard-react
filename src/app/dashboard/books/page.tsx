@@ -62,7 +62,9 @@ export default function Books() {
                         className="flex flex-col items-start w-full cursor-pointer"
                         onClick={handleClick}
                       >
-                        <h2 className="text-sm font-bold">{item.title}</h2>
+                        <h2 className="text-sm font-bold line-clamp-1">
+                          {item.title}
+                        </h2>
                         <p className="text-xs text-gray-500">{item.author}</p>
                       </div>
                     </div>
