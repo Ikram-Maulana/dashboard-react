@@ -234,7 +234,7 @@ const bookItems = [
       {
         id: 1,
         image:
-          "https://imgv2-2-f.scribdassets.com/img/audiobook/426745306/original/89361ccac6/1631464895?v=1",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673265492i/60784572.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -271,7 +271,7 @@ const bookItems = [
       {
         id: 2,
         image:
-          "https://imgv2-2-f.scribdassets.com/img/audiobook/426745306/original/89361ccac6/1631464895?v=1",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673265492i/60784572.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -308,7 +308,7 @@ const bookItems = [
       {
         id: 3,
         image:
-          "https://imgv2-2-f.scribdassets.com/img/audiobook/426745306/original/89361ccac6/1631464895?v=1",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673265492i/60784572.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -345,7 +345,7 @@ const bookItems = [
       {
         id: 4,
         image:
-          "https://imgv2-2-f.scribdassets.com/img/audiobook/426745306/original/89361ccac6/1631464895?v=1",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673265492i/60784572.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -382,7 +382,7 @@ const bookItems = [
       {
         id: 5,
         image:
-          "https://imgv2-2-f.scribdassets.com/img/audiobook/426745306/original/89361ccac6/1631464895?v=1",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673265492i/60784572.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -419,7 +419,7 @@ const bookItems = [
       {
         id: 6,
         image:
-          "https://imgv2-2-f.scribdassets.com/img/audiobook/426745306/original/89361ccac6/1631464895?v=1",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673265492i/60784572.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -684,7 +684,7 @@ const bookItems = [
       {
         id: 1,
         image:
-          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1652693853i/61069157._SX300_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671523079i/61151420.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -721,7 +721,7 @@ const bookItems = [
       {
         id: 2,
         image:
-          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1652693853i/61069157._SX300_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671523079i/61151420.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -758,7 +758,7 @@ const bookItems = [
       {
         id: 3,
         image:
-          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1652693853i/61069157._SX300_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671523079i/61151420.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -795,7 +795,7 @@ const bookItems = [
       {
         id: 4,
         image:
-          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1652693853i/61069157._SX300_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671523079i/61151420.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -832,7 +832,7 @@ const bookItems = [
       {
         id: 5,
         image:
-          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1652693853i/61069157._SX300_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671523079i/61151420.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,
@@ -869,7 +869,7 @@ const bookItems = [
       {
         id: 6,
         image:
-          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1652693853i/61069157._SX300_.jpg",
+          "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671523079i/61151420.jpg",
         title: "How innovation works",
         author: "Matt Ridley",
         year: 2020,

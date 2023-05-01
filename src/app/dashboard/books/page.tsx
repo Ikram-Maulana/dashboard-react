@@ -49,7 +49,7 @@ export default function Books() {
                       >
                         <div className="absolute flex items-center justify-center w-full h-full overflow-hidden transition-all rounded-lg opacity-0 cursor-pointer bg-slate-900/30 hover:opacity-100" />
                         <img
-                          className="object-cover w-full rounded-lg max-h-52 md:max-h-48 lg:max-h-60"
+                          className="object-cover w-full rounded-lg max-h-60 md:max-h-48 lg:max-h-60"
                           src={
                             item.image
                               ? item.image
