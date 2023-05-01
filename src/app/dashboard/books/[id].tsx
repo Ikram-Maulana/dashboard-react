@@ -86,6 +86,15 @@ export default function DetailBook() {
               <Badge color="emerald">Tersedia</Badge>
             </div>
             <Divider className="my-4" />
+            <div className="flex flex-col gap-2 lg:hidden">
+              <Button variant={"outline"} className="w-full">
+                Hari Pinjam
+              </Button>
+              <Button colorScheme="blue" className="w-full">
+                Pinjam Buku
+              </Button>
+            </div>
+            <Divider className="my-4 blcok lg:hidden" />
             <h2 className="text-2xl font-bold tracking-tight text-center scroll-m-20 md:text-left">
               Sinopsis
             </h2>
