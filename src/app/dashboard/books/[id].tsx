@@ -16,7 +16,6 @@ export default function DetailBook() {
         The detail book of <b>{id}</b> is shown here.
       </Text>
 
-      {/* Button back */}
       <Button
         leftIcon={<ArrowLeftIcon />}
         variant="outline"
