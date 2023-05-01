@@ -6,3 +6,7 @@
 #mobile a.active {
   @apply font-bold bg-slate-100 border border-slate-200 text-slate-700;
 }
+
+.chakra-tabs__tab {
+  @apply rounded-md !important;
+}
