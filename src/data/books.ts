@@ -1,7 +1,7 @@
 const bookItems = [
   {
     id: 1,
-    group: "all",
+    group: "All",
     items: [
       {
         id: 1,

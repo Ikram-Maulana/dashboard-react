@@ -11,7 +11,7 @@ export default function DashboardLayout() {
         <div className="container flex-1 items-start lg:grid lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10 lg:pl-0">
           <Sidebar />
 
-          <main className="p-6 sm:p-10">
+          <main className="px-2 py-6 sm:p-10">
             <Outlet />
           </main>
         </div>
